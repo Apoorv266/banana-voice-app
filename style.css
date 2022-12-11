@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+navbar{
+    background-color: red;
+    width: 100vw;
+    height: 70px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    height: 645px;
+}
+
+#inputBox{
+    height: 80px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#outputBar{
+    height: 80px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.main-item{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+}
+
+.footer{
+    background-color: yellow;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
