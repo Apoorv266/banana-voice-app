@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
 }
 
 navbar{
-    background-color: red;
+    background-color: #FD841F;
     width: 100vw;
     height: 70px;
 }
@@ -15,27 +19,30 @@ h1{
     margin-top: 10px;
 }
 
+
 .main{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     height: 645px;
+    background-color: #E5BA73;
 }
 
 #inputArea{
     height: 80px;
     width: 300px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
 }
 
 #outputBar{
     height: 80px;
     width: 300px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .main-item{
@@ -48,13 +55,28 @@ h1{
 button{
     height: 50px;
     width: 150px;
+    background-color: #FD841F;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    
 }
 
 .footer{
-    background-color: yellow;
+    background-color: #FD841F;
     width: 100vw;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 320px) {
+    .footer{
+       
+        width: 100vw;
+        height: 100px;
+    
+    }
+  }
